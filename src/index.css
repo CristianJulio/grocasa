@@ -1,3 +1,17 @@
+:root {
+  --clr-orange: #F76A23;
+  --clr-text: #686868;
+  --clr-white: #ffffff;
+  --clr-light-grey: #ACACAC;
+
+  --fw-semibold: 600;
+
+  --fs-small: .6rem;
+  --fs-normal: .85rem;
+  --fs-medium: 1rem;
+  --fs-big: 1.25rem;
+}
+
 * {
   padding: 0;
   margin: 0;
