@@ -1,8 +1,12 @@
 import styled from "styled-components";
 
-export const AmountWrapper = styled.span`
+interface AmountWrapperProps {
+  color?: string
+}
+
+export const AmountWrapper = styled.span<AmountWrapperProps>`
   align-self: center;
-  color: var(--clr-text);
+  color: ${({ color }) => color ? color : "var(--clr-text)"};
   font-size: var(--fs-big);
   font-weight: var(--fw-semibold);
 `
