@@ -1,16 +1,16 @@
-import { useEffect } from 'react'
 import * as SC from './home.style'
 import Card from '../../Components/Card/Card'
-import Header from './Header/Header'
+import grocasaLogo from '../../assets/Grocasa.png'
+import Header from '../../Components/Header/Header'
+import Logo from '../../Components/Header/Logo/Logo'
 
 const Home = () => {
-  useEffect(() => {
-    // window.alert(window.screen.availWidth)
-  }, [])
 
   return (
     <div>
-      <Header />
+      <Header>
+        <Logo src={grocasaLogo} alt="logo de Grocasa" />
+      </Header>
       <SC.CardsWrapper>
         <Card />
         <Card />

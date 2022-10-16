@@ -1,9 +1,10 @@
+import { DETAILS } from '../../Routes/routes'
 import * as SC from './card.style'
 import bathIcon from '../../assets/WEB_MATERIAL-09.svg'
 import bedIcon from '../../assets/WEB_MATERIAL-10.svg'
 import crossIcon from '../../assets/WEB_MATERIAL-11.svg'
-import MainImg from '../../assets/Rectangle -1@2x.png'
 import Icon from './Icon/Icon'
+import MainImg from '../../assets/Rectangle -1@2x.png'
 
 const Card = () => {
   return (
@@ -27,7 +28,7 @@ const Card = () => {
           </Icon>
         </SC.Icons>
         <SC.Amount>330.000&euro;</SC.Amount>
-        <SC.MoreInfoButton>Más Info</SC.MoreInfoButton>
+        <SC.MoreInfo to={DETAILS}>Más Info</SC.MoreInfo>
       </SC.FlexWrapper>
     </SC.CardWrapper>
   )

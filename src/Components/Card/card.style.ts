@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 export const CardWrapper = styled.div`
@@ -31,7 +32,7 @@ export const Amount = styled.span`
   font-size: var(--fs-big);
   font-weight: var(--fw-semibold);
 `
-export const MoreInfoButton = styled.button`
+export const MoreInfo = styled(Link)`
   background-color: var(--clr-white);
   border-radius: 20px;
   border: 1px solid var(--clr-orange);
@@ -39,6 +40,7 @@ export const MoreInfoButton = styled.button`
   cursor: pointer;
   font-weight: var(--fw-semibold);
   padding: 5px 30px;
+  text-decoration: none;
   transition: all .2s;
 
   &:hover {
