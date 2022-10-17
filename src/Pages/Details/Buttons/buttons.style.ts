@@ -7,4 +7,8 @@ export const ButtonsWrapper = styled.div`
   justify-content: end;
   margin: 0 auto;
   width: 850px;
+
+  @media screen and (max-width: 900px) {
+    width: 95%;
+  }
 `

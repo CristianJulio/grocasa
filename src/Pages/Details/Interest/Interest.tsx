@@ -4,7 +4,7 @@ import * as SC from './interest.style'
 const Interest = () => {
   return (
     <SC.InterestWrapper>
-      <h3>También pueden interesarte</h3>
+      <SC.Title>También pueden interesarte</SC.Title>
       <SC.CardsWrapper>
         <Card />
         <Card />

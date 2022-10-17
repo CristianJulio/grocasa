@@ -6,4 +6,15 @@ export const PropertiesWrapper = styled(MainContainerStyled)`
   display: flex;
   gap: 60px;
   margin: 15px auto 35px auto;
+
+  @media screen and (max-width: 450px) {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    width: 95%;
+  }
+
+  @media screen and (max-width: 900px) {
+    width: 95%;
+  }
 `
