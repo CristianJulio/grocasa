@@ -5,6 +5,7 @@ import Carousel from './Carousel/Carousel'
 import grocasaLogo from '../../assets/Grocasa.png'
 import Header from '../../Components/Header/Header'
 import HouseData from './HouseData/HouseData'
+import Map from './Map/Map'
 import Properties from './Properties/Properties'
 
 const Details = () => {
@@ -17,6 +18,7 @@ const Details = () => {
       <Carousel />
       <HouseData />
       <Properties />
+      <Map />
     </>
   )
 }
