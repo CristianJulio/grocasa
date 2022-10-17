@@ -8,10 +8,10 @@ import Carousel from './Carousel/Carousel'
 import grocasaLogo from '../../assets/Grocasa.png'
 import Header from '../../Components/Header/Header'
 import HouseData from './HouseData/HouseData'
+import Interest from './Interest/Interest'
 import Map from './Map/Map'
 import Properties from './Properties/Properties'
 import Switch from '../../Components/Switch/Switch'
-import Interest from './Interest/Interest'
 
 const Details = () => {
   const [isActive, setIsActive] = useState<boolean>(false)

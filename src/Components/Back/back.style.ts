@@ -7,7 +7,12 @@ export const BackWrapper = styled(Link)`
   left: -70px;
   position: absolute;
   top: 21%;
+  transition: transform .2s;
 
+  &:hover {
+    transform: scale(1.1);
+  }
+  
   img {
     width: 28px;
   }
