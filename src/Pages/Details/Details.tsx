@@ -11,6 +11,7 @@ import HouseData from './HouseData/HouseData'
 import Map from './Map/Map'
 import Properties from './Properties/Properties'
 import Switch from '../../Components/Switch/Switch'
+import Interest from './Interest/Interest'
 
 const Details = () => {
   const [isActive, setIsActive] = useState<boolean>(false)
@@ -29,6 +30,7 @@ const Details = () => {
         <Switch status={isActive} setStatus={setIsActive} />
         <Button>Contactar</Button>
       </Buttons>
+      <Interest />
     </>
   )
 }
