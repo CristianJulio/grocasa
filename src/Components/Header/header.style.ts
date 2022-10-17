@@ -6,7 +6,7 @@ export const HeaderWrapper = styled.header`
   width: 850px;
 
   @media screen and (max-width: 900px) {
-    margin-bottom: 25px;
+    margin: 13px auto 13px auto;
     width: fit-content;
   }
 `

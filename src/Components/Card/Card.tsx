@@ -8,7 +8,7 @@ import Flex from '../Flex/Flex'
 import Icon from './Icon/Icon'
 import Icons from './Icons/Icons'
 import Location from './Location/Location'
-import MainImg from '../../assets/Rectangle -1@2x.png'
+import MainImg from '../../assets/Rectangle-1@2x.png'
 import MoreInfo from './MoreInfo/MoreInfo'
 import Title from './Title/Title'
 
